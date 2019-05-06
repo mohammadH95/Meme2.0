@@ -206,7 +206,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="559"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eeq-QK-9tb">
-                                <rect key="frame" x="20" y="144" width="335" height="48"/>
+                                <rect key="frame" x="20" y="74" width="335" height="48"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="TOP">
@@ -220,7 +220,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ex-z4-yno">
-                                <rect key="frame" x="20" y="495" width="335" height="48"/>
+                                <rect key="frame" x="20" y="565" width="335" height="48"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment content="BOTTOM">
@@ -263,14 +263,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="ckQ-TX-1gv" secondAttribute="top" id="EzU-ZD-4aE"/>
                             <constraint firstItem="2ex-z4-yno" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="G3g-b3-yqz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2ex-z4-yno" secondAttribute="trailing" constant="20" id="PJb-wy-V56"/>
-                            <constraint firstItem="6ff-wl-CnL" firstAttribute="top" secondItem="2ex-z4-yno" secondAttribute="bottom" constant="80" id="Tgn-Fi-jW6"/>
+                            <constraint firstItem="6ff-wl-CnL" firstAttribute="top" secondItem="2ex-z4-yno" secondAttribute="bottom" constant="10" id="Tgn-Fi-jW6"/>
                             <constraint firstItem="6ff-wl-CnL" firstAttribute="centerX" secondItem="2ex-z4-yno" secondAttribute="centerX" id="Xc9-xK-Dco"/>
                             <constraint firstItem="CRI-e5-ACV" firstAttribute="top" secondItem="ckQ-TX-1gv" secondAttribute="bottom" id="Z0n-gA-kKB"/>
                             <constraint firstItem="6ff-wl-CnL" firstAttribute="trailing" secondItem="CRI-e5-ACV" secondAttribute="trailing" id="f6Y-rp-lHJ"/>
                             <constraint firstItem="6ff-wl-CnL" firstAttribute="leading" secondItem="CRI-e5-ACV" secondAttribute="leading" id="f7v-6e-0Gv"/>
                             <constraint firstItem="6ff-wl-CnL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rai-yl-NsW"/>
                             <constraint firstItem="6ff-wl-CnL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wRB-6w-IlL"/>
-                            <constraint firstItem="eeq-QK-9tb" firstAttribute="top" secondItem="ckQ-TX-1gv" secondAttribute="bottom" constant="80" id="xSP-NH-mf6"/>
+                            <constraint firstItem="eeq-QK-9tb" firstAttribute="top" secondItem="ckQ-TX-1gv" secondAttribute="bottom" constant="10" id="xSP-NH-mf6"/>
                             <constraint firstItem="6ff-wl-CnL" firstAttribute="top" secondItem="CRI-e5-ACV" secondAttribute="bottom" id="xb1-ug-3AH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eeq-QK-9tb" secondAttribute="trailing" constant="20" id="ybj-sf-n51"/>
                         </constraints>
