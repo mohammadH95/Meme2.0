@@ -24,7 +24,7 @@ class MemeDetailVC: UIViewController {
         view.addSubview(imageView)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        
+        imageView.contentMode = UIView.ContentMode.scaleAspectFit
         imageView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor).isActive = true
         imageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
         imageView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor).isActive = true
